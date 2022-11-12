@@ -111,12 +111,14 @@ nav ul li a:hover {
 }
 .result-final__div {
   margin: auto;
-  height: 30%;
+
+  height: 500px;
   min-width: 400px;
-  display: flex;
-  flex-wrap: wrap;
+  overflow-wrap: break-word;
+  overflow: scroll;
   text-align: center;
 }
 #result-final {
   font-size: 30px;
+  height: 100%;
 }
