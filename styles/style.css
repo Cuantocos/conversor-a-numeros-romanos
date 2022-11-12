@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+
   font-family: "Times New Roman", Times, serif;
 }
 body {
@@ -112,7 +112,9 @@ nav ul li a:hover {
 .result-final__div {
   margin: auto;
   height: 30%;
-  width: 30%;
+  min-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
 }
 #result-final {
